@@ -8,6 +8,7 @@ import android.graphics.Paint;
 import android.graphics.Rect;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
+import android.view.View;
 
 
 /**
@@ -16,7 +17,7 @@ import android.util.AttributeSet;
  * @author menggod
  * @date 2018/1/4.
  */
-public class RatioCircleColorView extends android.support.v7.widget.AppCompatImageView {
+public class RatioCircleColorView extends View {
     private float mRadius;
     private String mColorString = "#ff0000,#0000ff,#00ff00";
     private int mColor;
@@ -83,7 +84,7 @@ public class RatioCircleColorView extends android.support.v7.widget.AppCompatIma
             rect.top = startTop;
 
 //            canvas.drawRect(rect, paint);
-            canvas.drawRect(0, startTop, this.getRight(), mHight,paint);
+            canvas.drawRect(0, startTop, this.getRight(), startTop + mHight, paint);
             startTop = startTop + mHight;
         }
 
