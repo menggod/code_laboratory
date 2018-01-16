@@ -58,7 +58,7 @@ public class RatioCircleColorView extends ImageView {
     public RatioCircleColorView setColor() {
 
 
-        Bitmap MaskBitmap = Bitmap.createBitmap(70, 70, Bitmap.Config.ARGB_8888);
+        Bitmap MaskBitmap = Bitmap.createBitmap(90, 90, Bitmap.Config.ARGB_8888);
         Canvas MaskCanvas = new Canvas(MaskBitmap);
 
         String[] colorList = mColorString.split(",");
@@ -68,12 +68,12 @@ public class RatioCircleColorView extends ImageView {
         paint.setAntiAlias(true);
         paint.setStyle(Paint.Style.FILL);
 
-        int bottom = this.getBottom();
+        int bottom = 90;
         System.out.println(bottom);
-        mHight = this.getBottom() / (colorList.length);
+        mHight = bottom / (colorList.length);
 
         int startTop = 0;
-        Rect rect = new Rect(0, 0, this.getRight(), mHight);
+        Rect rect = new Rect(0, 0, 90, mHight);
 
 
         for (String s : colorList) {
@@ -87,7 +87,7 @@ public class RatioCircleColorView extends ImageView {
             rect.top = startTop;
 
 //            canvas.drawRect(rect, paint);
-            MaskCanvas.drawRect(0, startTop, this.getRight(), startTop + mHight, paint);
+            MaskCanvas.drawRect(0, startTop, 90, startTop + mHight, paint);
             startTop = startTop + mHight;
         }
 
