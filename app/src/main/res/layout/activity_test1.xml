@@ -7,10 +7,17 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="cn.mf.codelaboratory.Test1Activity">
+
     <Button
         android:id="@+id/test1_btn"
-        android:text="测试"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="测试"/>
+
+    <cn.mf.codelaboratory.view.RatioCircleColorView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        />
+
 
 </LinearLayout>
