@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CodeLaboratory.iml" filepath="$PROJECT_DIR$/CodeLaboratory.iml" />
       <module fileurl="file://H:\code_laboratory\CodeLaboratory.iml" filepath="H:\code_laboratory\CodeLaboratory.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://H:\code_laboratory\app\app.iml" filepath="H:\code_laboratory\app\app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/code_laboratory.iml" filepath="$PROJECT_DIR$/code_laboratory.iml" />
+      <module fileurl="file://D:\jimf\AndroidProjects\CodeLaboratory\code_laboratory.iml" filepath="D:\jimf\AndroidProjects\CodeLaboratory\code_laboratory.iml" />
       <module fileurl="file://$PROJECT_DIR$/javalib/javalib.iml" filepath="$PROJECT_DIR$/javalib/javalib.iml" />
     </modules>
   </component>
