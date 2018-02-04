@@ -48,6 +48,13 @@
         <!-- </activity> -->
         <!--<activity android:name=".SpeedActivity">-->
         <!--</activity>-->
+
+        <service
+            android:name=".loaction.LocationService"
+            android:enabled="true"
+            android:exported="true">
+        </service>
+
     </application>
 
 </manifest>
